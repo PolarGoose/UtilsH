@@ -1,0 +1,18 @@
+# https://clang.llvm.org/extra/clang-tidy/checks/list.html
+---
+Checks: >
+  -*,
+  clang-analyzer-*,
+  modernize-*,
+  performance-*,
+  portability-*,
+  readability-*,
+  bugprone-*,
+  -modernize-use-trailing-return-type,
+  -modernize-use-default-member-init,
+  -modernize-use-equals-delete,
+  -readability-magic-numbers,
+WarningsAsErrors: '*'
+HeaderFilterRegex: '.*'
+FormatStyle:     none
+...

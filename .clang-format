@@ -1,0 +1,6 @@
+# https://clang.llvm.org/docs/ClangFormatStyleOptions.html
+# https://zed0.co.uk/clang-format-configurator/
+BasedOnStyle: Microsoft
+BreakBeforeBraces: Stroustrup
+CompactNamespaces: true
+FixNamespaceComments: false
